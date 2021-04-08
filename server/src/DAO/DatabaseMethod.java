@@ -52,10 +52,10 @@ public class DatabaseMethod {
                 String answer=rs.getString("answer");
                 String sType=rs.getString("type");
                 if(sType.equals("true")){
-                    temp=new subjectQuestion(quesID,score,diffIndex,content,answer);
+                    temp=new SubjectQuestion(quesID,score,diffIndex,content,answer);
                 }
                 else {
-                    temp=new multiChoice(quesID,score,diffIndex,content,answer);
+                    temp=new MultiChoice(quesID,score,diffIndex,content,answer);
                 }
                 questions[count++]=temp;
             }
@@ -93,10 +93,10 @@ public class DatabaseMethod {
                 String answer=rs.getString("answer");
                 String sType=rs.getString("type");
                 if(sType.equals("true")){
-                    temp=new subjectQuestion(quesID,score,diffIndex,content,answer);
+                    temp=new SubjectQuestion(quesID,score,diffIndex,content,answer);
                 }
                 else {
-                    temp=new multiChoice(quesID,score,diffIndex,content,answer);
+                    temp=new MultiChoice(quesID,score,diffIndex,content,answer);
                 }
                 questions[count++]=temp;
             }
