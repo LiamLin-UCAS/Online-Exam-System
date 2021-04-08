@@ -1,4 +1,5 @@
 package Person;
 
-public class Person {
+public abstract class Person {
+
 }
