@@ -112,4 +112,26 @@ public class DatabaseMethod {
         }
         return null;
     }
+    public static boolean register(String ID,String name,String password,String identity,String userClass){
+        try {
+            con=JDBC.getConnection();
+            String sql="insert into login (ID, name, password, identity, class) values (?,?,?,?,?)";
+            pStmt=con.prepareStatement(sql);
+            pStmt.setString(1,ID);
+            pStmt.setString(2,name);
+            pStmt.setString(3,password);
+            pStmt.setString(4,identity);
+            pStmt.setString(5,userClass);
+            boolean temp= pStmt.execute();
+        } catch (ClassNotFoundException | SQLException e) {
+            System.err.println("Database Driver Error!\n"+e);
+        }finally {
+            try {
+                JDBC.close(rs,pStmt,con);
+            } catch (SQLException e) {
+                System.err.println("Database Close Error!");
+            }
+        }
+        return false;
+    }
 }
