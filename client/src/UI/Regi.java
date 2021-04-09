@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Regi {
-    public static void main(String[] args) {
+    public Regi() {
         JFrame Frame = new JFrame();
         Frame.setSize(550,500);
         Frame.setLocationRelativeTo(null);

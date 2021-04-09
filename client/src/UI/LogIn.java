@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class LogIn {
-    public static void main(String[] args) {
+    public LogIn() {
         JFrame Frame = new JFrame();
         JLabel Headline = new JLabel("欢迎来到智能考试系统");
         JLabel ID = new JLabel("学工号：");
