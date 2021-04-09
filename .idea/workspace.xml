@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e2511f-2923-4cda-8f21-2944f005b755" name="默认的" comment="默认的">
-      <change afterPath="$PROJECT_DIR$/client/src/UI/Student/MainUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/UI/Teacher/MainUi.jfd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/UI/MainUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UI/Teacher/MainUi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/UI/MainUi.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UI/Student/MainUi.jfd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +54,6 @@
       <recent name="UI.Student" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -90,6 +71,7 @@
       <workItem from="1617950482447" duration="270000" />
       <workItem from="1617950789258" duration="2592000" />
       <workItem from="1617953580240" duration="390000" />
+      <workItem from="1617955637904" duration="141000" />
     </task>
     <servers />
   </component>

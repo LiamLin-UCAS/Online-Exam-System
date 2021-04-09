@@ -11,7 +11,7 @@ import javax.swing.GroupLayout;
 /**
  * @author unknown
  */
-public class MainUi extends JFrame {
+public class MainUi extends JFrame {//test  gitee
     public MainUi() {
         initComponents();
     }
