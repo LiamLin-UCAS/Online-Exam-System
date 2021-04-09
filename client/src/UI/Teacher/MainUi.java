@@ -2,7 +2,7 @@
  * Created by JFormDesigner on Fri Apr 09 14:43:45 CST 2021
  */
 
-package UI;
+package UI.Teacher;
 
 import java.awt.*;
 import javax.swing.*;

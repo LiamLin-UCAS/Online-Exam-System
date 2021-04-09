@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e2511f-2923-4cda-8f21-2944f005b755" name="默认的" comment="默认的">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/UI/MainUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/UI/MainUi.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/UI/Student/MainUi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/UI/Teacher/MainUi.jfd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UI/MainUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UI/Teacher/MainUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UI/MainUi.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UI/Student/MainUi.jfd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="243" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/UI/Student" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -46,18 +47,27 @@
     <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\各种文件\JAVA课设\Project\Online-Exam-System\client\src\UI\Student" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\各种文件\JAVA课设\Project\Online-Exam-System\client\src\UI\Teacher" />
       <recent name="D:\各种文件\JAVA课设\Project\Online-Exam-System\client\Mysql_driver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UI.Student" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,6 +89,7 @@
       <workItem from="1617948846979" duration="1606000" />
       <workItem from="1617950482447" duration="270000" />
       <workItem from="1617950789258" duration="2592000" />
+      <workItem from="1617953580240" duration="390000" />
     </task>
     <servers />
   </component>
